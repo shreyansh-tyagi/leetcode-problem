@@ -27,17 +27,12 @@ Constraints:
 
 1 <= digits.length <= 100
 0 <= digits[i] <= 9
-\
 '''
 class Solution:
-	def plusOne(self, digits: List[int]) -> List[int]:
-		s=0
-		d=[]
-		for i in digits:
-			s=10*s+i
-		s=s+1
-		while s!=0:
-			r=s%10
-			d.append(r)
-			s=s//10
-		return d[::-1]
+    def plusOne(self, digits: List[int]) -> List[int]:
+        c=digits[-1]+1
+        digits.pop()
+        a=str(c)
+        b=a.split()
+        digits.extend(b)
+        return digits

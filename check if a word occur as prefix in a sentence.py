@@ -7,7 +7,7 @@ Return the index of the word in sentence where searchWord is a prefix of this wo
 
 If searchWord is a prefix of more than one word, return the index of the first word (minimum index). If there is no such word return -1.
 
-A prefix of a string S is any leading contiguous substring of S.
+A prefix of a string S is any leading contiguous substring of s.
 
  
 

@@ -13,7 +13,7 @@ Input: nums = [1,0,1,1], k = 1, t = 2
 Output: true
 Example 3:
 
-Input: nums = [1,5,9,1,5,9], k = 2, t = 3
+Input: nums = [1,5,9,1,5,9], k = 2, t = 
 Output: false
  
 
